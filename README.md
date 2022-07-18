@@ -1,11 +1,11 @@
 # web学习
-
+web-learning
 #### 介绍
 web学习的仓库
 
 #### 软件架构
 软件架构说明
-
+web-learning
 
 #### 安装教程
 
