@@ -3,5 +3,25 @@ body {
 }
 div {
   background-color: pink;
+  width: 400px;
+  height: 200px;
+  border: 5px solid #ccc;
+}
+.header {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+.header a {
+  color: green;
+}
+.header a:hover {
+  color: blue;
+}
+.nav .logo {
+  color: yellow;
+}
+.nav::before {
+  content: '123123';
 }
 /*# sourceMappingURL=my.css.map */

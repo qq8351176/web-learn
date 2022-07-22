@@ -1,8 +1,33 @@
 //定义粉色的变量
 @color: pink;
+@border:5px;
 body {
   background-color: @color;
 }
 div
 {
-  background-color:@color;}
+  background-color:@color;
+
+  width: 200px*2;
+  height: 200px;
+  border: @border solid #ccc;}
+
+.header{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  a{
+    color: green;
+    &:hover{
+      color: blue;
+    }
+  }
+}
+.nav{
+  .logo{
+    color: yellow;
+  }
+  &::before{
+    content: '123123';
+  }
+}
