@@ -1,6 +1,11 @@
 //首页的样式
 @import "common";
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -28,7 +33,6 @@ body {
   .classify {
     width: (44rem / @baseFont);
     height: (70rem / @baseFont);
-    background-color: pink;
     margin: (11rem /@baseFont) (25rem /@baseFont) (7rem / @baseFont) (24rem / @baseFont);
     background: url("../images/classify.png");
     -webkit-background-size: (44rem / @baseFont) (70rem / @baseFont);
@@ -53,7 +57,7 @@ body {
   }
 
   .login {
-    width: (70rem / @baseFont);
+    width: (75rem / @baseFont);
     height: (70rem / @baseFont);
     margin: (10rem / @baseFont);
     font-size: (25rem / @baseFont);
@@ -79,10 +83,34 @@ body {
 
   a {
     flex: 1;
+
     img {
       width: 100%;
+      margin-top: (-22rem / @baseFont);
+
     }
   }
+}
 
+nav {
+  width: (750rem / @baseFont);
 
+  a {
+    width: (150rem / @baseFont);
+    height: (140rem / @baseFont);
+    float: left;
+    text-align: center;
+
+    img {
+      display: block;
+      width: (82rem / @baseFont);
+      height: (82rem / @baseFont);
+      margin: (10rem / @baseFont) auto 0;
+    }
+    span{
+      display: block;
+      font-size: (25rem / @baseFont);
+      color: #333;
+    }
+  }
 }
